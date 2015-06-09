@@ -1,0 +1,1420 @@
+/*---------------------------------------------------------------------------------------*/
+/*index.css*/
+.slide {
+	height: 540px;
+	position: relative;
+	margin-top: -40px;
+	padding-bottom: 15px;
+	z-index: 1;
+}
+.sec-banner {
+	
+	z-index:99;
+	top:200px;
+	height:580px;
+	overflow: hidden;
+	width: 100%;
+}
+.sec-banner.index {
+	width: 100%;
+	height: 400px;
+	
+	margin-bottom: 18px;
+}
+
+.index .img-banner {
+	margin: auto;
+	display: inline-block;
+}
+.index .flexslider li {
+	float: left;
+}
+.img-shop {
+	float: left;
+	width: 306px;/*height:139px;*/
+	margin-right: 30px;
+}
+.detail-shop .text-shop div {
+	text-align: left;
+}
+.sec-banner.index .container {
+	z-index: 2;
+}
+.sec-banner.index .flexslider {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.sec-banner .text-shop h2 {
+	font-size: 292%;
+	font-weight: 700;
+	line-height: 62px;
+}
+.sec-banner.index .text-shop .h2 {
+	color: #ff6600;
+	font-weight: 700;
+	font-size: 692%;
+	line-height: 102px;
+	height: auto;
+	height: 102px;
+}
+.sec-banner.index .text-shop .h3 {
+	color: #ff6600;
+	font-weight: 700;
+	font-size: 200%;
+	text-transform: uppercase;
+	line-height: 30px;
+	height: 58px;
+	padding: 0 80px;
+	font-family: robotoBold, arial;
+}
+.sec-banner.index .text-shop .summary {
+	height: 50px;
+	overflow: hidden;
+	display: block;
+}
+.one-shop-nav {
+	text-align: center;
+	display: none;
+	margin-top: 66px;
+	width: 65px;
+	margin: auto;
+}
+.sec-banner.index .one-shop-nav {
+	margin-top: 7px;
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.sec-banner.index .flex-control-paging {
+	width: 100%;
+	left: 0;
+	padding: 0;
+	position: static;
+}
+.sec-banner .button {
+	color: #FFFFFF;
+	font-size: 167%;
+	font-weight: 700;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 190px;
+	display: inline-block;
+	margin-top: 30px;
+}
+.sec-banner .button:hover {
+	background-position: 0 -50px;
+	line-height: 40px
+}
+.sec-banner .button:active {
+	background-position: 0 -107px;
+	height: 44px;
+	line-height: 44px;
+}
+.sec-banner.index .button {
+	margin-top: 15px;
+	display: block;
+	margin: 8px auto 0 auto;
+}
+.list-pros {
+	line-height: 0;
+	position: relative;
+}
+.list-pros .line, .banner .line {
+	height: 0;
+	width: 100%;
+	display: block;
+	font-size: 0;
+	border-top: 1px dotted #a5a5a5;
+}
+.list-pros ul {
+	display: inline-block;
+	position: relative;
+	width: 1018px;
+}
+.pro {
+	float: left;
+}
+.pro-2 .pro {
+	padding: 0 28px 22px 0;
+}
+.pro-2 .pro.index {
+	padding-top: 40px;
+	position: relative;
+	width: 474px
+}
+.pro-3 .pro.index {
+	padding-top: 34px;
+}
+.pro-img {
+	background-color: #fff;
+	display: inline-block;
+	border: 3px solid #fff;
+	position: relative;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+	-moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+.pro-2 .pro-img {
+	width: 468px;
+	height: 468px;
+}
+.pro-3.gr-pro {
+	width: 666px;
+	padding-top: 21px;
+	z-index: 2;
+}
+.pro-3.gr-pro ul {
+	width: 800px;
+}
+.pro-title {
+	width: 100%;
+	height: 55px;
+	display: inline-block;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.pro-2 .pro.index .pro-title {
+	width: 406px;
+	height: 95px;
+	top: -40px;
+	left: 35px;
+	text-align: center
+}
+.pro-3 .pro.index .pro-title {
+	width: 295px;
+	height: 77px;
+	background: url(http://statics.kay.com.vn/images/bg-title-index-3.png?v=1.1) no-repeat;
+	top: -34px;
+	left: 5px;
+	text-align: center
+}
+.pro-icon {
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	margin-top: -13px;
+}
+.pro-2 .pro.index .pro-icon {
+	margin-top: -18px;
+}
+.pro-3 .pro.index .pro-icon {
+	top: 20px;
+}
+.pro.index .pro-des {
+	height: 22px;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 350px;
+	text-overflow: ellipsis;
+}
+.pro-3 .pro.index .pro-des p, .pro-3 .pro.index .pro-des {
+	width: 240px;
+}
+.pro.index .pro-des p {
+	white-space: nowrap;
+	width: 350px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 22px;
+}
+.pro-2 .pro.index .pro-tit {
+	margin-top: 22px;
+	display: block;
+	font-family: robotoBold, arial;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.pro-3 .pro.index .pro-tit {
+	margin-top: 14px;
+}
+.page.deal .pro-icon {
+	background-position: -50px -519px;
+}
+.pro-tit {
+	color: #333;
+	font-size: 150%;
+	line-height: 23px;
+	display: inline-block;
+*display:inline;
+	zoom: 1;
+	padding: 0 52px 0 10px;
+	margin-top: 4px;
+	overflow: hidden;
+	height: 23px;
+	font-family: robotoBold, arial;
+	text-transform: capitalize;
+}
+.pro-des {
+	color: #333;
+	font-size: 130%;
+	line-height: 20px;
+	display: inline-block;
+*display:inline;
+	zoom: 1;
+	padding: 0 52px 0 10px;
+	overflow: hidden;
+}
+.pro-2 .pro.shop .pro-des p {
+	white-space: nowrap;
+	width: 350px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 20px;
+}
+.pro-price {
+	width: 100%;
+	height: 0;
+	display: inline-block;
+*display:inline;
+	zoom: 1;
+	background-color: #18a68c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 1;
+	transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	-webkit-transition: height 0.3s;
+}
+.pro-price-left {
+	color: #fff;
+	font-size: 112%;
+	line-height: 16px;
+	float: left;
+	padding-left: 20px;
+	margin-top: 8px;
+}
+.pro-price-left i {
+	display: block
+}
+.pro-price-left .new-price {
+	color: #fff;
+	font-size: 167%;
+	line-height: 27px;
+}
+.pro-price-right {
+	color: #fff;
+	font-size: 108%;
+	line-height: 16px;
+	background: url(../img/bg-slide.jpg) no-repeat 0 -280px;
+	padding-left: 20px;
+	line-height: 16px;
+	position: absolute;
+	top: 19px;
+	right: 12px;
+}
+.pro-delivery {
+	height: 35px;
+	width: 100%;
+	background: rgba(188,215,74,0.9);
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 58px;
+	transition: opacity 0.3s ease 0s;
+	-moz-transition: opacity 0.3s ease 0s;
+	-webkit-transition: opacity 0.3s ease 0s;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.pro-img:hover .pro-delivery {
+	transition: opacity 0.3s ease 0s;
+	-moz-transition: opacity 0.3s ease 0s;
+	-webkit-transition: opacity 0.3s ease 0s;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.pro-delivery .pro-price-right {
+	top: 10px;
+	color: #fff;
+	background: url(../img/bg-slide.jpg) no-repeat 0 -210px;
+}
+.delivery {
+	margin: 12px 0 6px 11px;
+	height: 16px;
+	padding-left: 36px;
+	background: url(http://statics.kay.com.vn/images/ico-detail.png?v=1.1) no-repeat 0 -689px;
+	font-size: 108%;
+	color: #fff;
+	font-style: italic;
+	line-height: 16px;
+}
+.voucher {
+	margin: 9px 0 10px 11px;
+	height: 16px;
+	padding-left: 24px;
+	background: url(http://statics.kay.com.vn/images/ico-detail.png?v=1.1) no-repeat 0 -668px;
+	font-size: 108%;
+	color: #fff;
+	font-style: italic;
+	line-height: 16px;
+}
+.pro .button {
+	background: url(http://statics.kay.com.vn/images/button.png?v=1.1) 0 -327px no-repeat;
+	width: 85px;
+	color: #FFF;
+	display: inline-block;
+*display:inline;
+	zoom: 1;
+	font-size: 125%;
+	font-weight: 700;
+	height: 29px;
+	left: -88px;
+	line-height: 32px;
+	margin-right: 4px;
+	margin-top: -3px;
+	opacity: 0;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	transition: opacity 0.3s ease 0s;
+	-moz-transition: opacity 0.3s ease 0s;
+	-webkit-transition: opacity 0.3s ease 0s;
+}
+.pro .button:hover {
+	background-position: 0 -380px;
+	line-height: 29px;
+}
+.pro .button:active {
+	background-position: 0 -440px;
+	height: 26px;
+	margin-top: 3px;
+}
+.pro-icon:hover .button {
+	transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	-webkit-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	opacity: 1;
+}
+.pro-img:hover .pro-price {
+	height: 55px;
+	transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	-webkit-transition: height 0.3s;
+	-o-transition: height 0.3s;
+}
+.pro-3 .pro {
+	padding: 0 26px 22px 0;
+}
+.pro-3 .pro-img {
+	height: 304px;
+	width: 304px;
+}
+.list-pros-title {
+	color: #333;
+	font-size: 193%;
+	font-family: robotoRegular, arial;
+	line-height: 29px;
+	padding: 9px 0 9px 0;
+	position: relative
+}
+.list-pros-title span {
+	color: #18a68c;
+}
+.list-pros-title.deal span {
+	color: #bcd74a
+}
+.sec-banner.deal {
+	background-size: cover;
+	width: 100%;
+	height: 407px;
+}
+.sec-banner.deal .text-shop {
+	height: 407px;
+	width: 277px;
+	float: right;
+	background: url(http://statics.kay.com.vn/images/bg-banner-deal.png?v=1.1) no-repeat;
+	padding: 0 20px;
+	margin-top: -407px;
+}
+.sec-banner.deal .text-shop p, .sec-banner.deal .text-shop h2 {
+	font-size: 130%;
+	line-height: 20px;
+	color: #000;
+}
+.sec-banner.deal .text-shop .h2 {
+	font-size: 200%;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	height: 58px;
+	font-family: robotoBold, arial;
+}
+.sec-banner.deal .text-shop p {
+	margin-top: 12px;
+	height: 50px;
+	text-align: center;
+}
+.sec-banner.deal .text-shop .summary {
+	height: 102px;
+}
+.sec-banner.deal .text-shop .description {
+	display: none;
+}
+.sec-banner.deal .button {
+	background-image: url(http://statics.kay.com.vn/images/button.png?v=1.1);
+	background-position: -400px 3px;
+	background-repeat: no-repeat;
+	color: #FFF;
+	font-size: 167%;
+	font-weight: 700;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 190px;
+	margin-left: 20px;
+	display: inline-block;
+*display:inline;
+	zoom: 1;
+	margin-top: 30px;
+	margin: auto;
+	display: block;
+}
+.sec-banner.deal .button:hover {
+	background-position: -400px -50px;
+	line-height: 40px
+}
+.sec-banner.deal .button:active {
+	background-position: -400px -107px;
+	height: 44px;
+	line-height: 44px;
+}
+.pro.deal .pro-title {
+	width: 300px;
+	height: 78px;
+	background: url(http://statics.kay.com.vn/images/bg-title-deal-3.png?v=1.1) no-repeat;
+	top: -34px;
+	left: 1px;
+}
+.pro.deal .pro-tit, .pro.deal .pro-des {
+	color: #000;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	padding: 0 10px 0 15px;
+	line-height: 18px;
+	height: 20px;
+}
+.pro.deal .pro-des p {
+	white-space: nowrap;
+	width: 270px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 20px;
+}
+.pro.deal .pro-tit {
+	margin-top: 14px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-right: 20px;
+	text-transform: capitalize;
+}
+.pro.deal .pro-img {
+	border: 0 none;
+	width: 300px;
+	height: auto;
+	padding: 3px;
+}
+.pro.deal .pro-price {
+	background-color: #fff;
+	position: relative;
+	opacity: 1;
+	filter: none;
+	visibility: visible;
+}
+.pro.deal .pro-price-left, .pro.deal .pro-price-left .new-price {
+	color: #000;
+}
+.sec-banner.deal .one-shop-nav {
+	margin-top: 30px;
+	display: block;
+	width: 100%;
+}
+.sec-banner.deal .one-shop-nav i:hover, .sec-banner.deal .one-shop-nav .active {
+	background-color: #bcd74a;
+}
+.pro.deal .button {
+	background-position: -110px -327px;
+}
+.pro.deal .button:hover {
+	background-position: -110px -380px;
+}
+.pro.deal .button:active {
+	background-position: -110px -440px;
+}
+.sec-banner.deal .container {
+	z-index: 1;
+}
+.sec-banner.shop {
+	background-size: cover;
+	width: 100%;
+	height: 407px;
+	margin-bottom: 100px;
+}
+.sec-banner.shop .img-banner {
+	position: relative;
+}
+.hotline.shop .title span {
+	color: #ff9900
+}
+.list-pros-title.shop span {
+	color: #ff9900
+}
+.pro.deal {
+	padding-bottom: 40px;
+	margin-top: 44px;
+}
+.pro.shop .pro-icon {
+	background: url(../img/bg-slide.jpg) 0 -519px no-repeat;
+}
+.pro.shop .pro-price {
+	background: #ff9900;
+}
+.filter.shop {
+	padding: 20px 0;
+	border-top: 1px dotted #a5a5a5;
+}
+.detail-shop {
+	padding: 30px 0 0 0;
+}
+.detail-shop .text-shop {
+	height: 139px;
+}
+.detail-shop .text-shop p {
+	font-size: 124%;
+}
+.one-shop .flexslider {
+	width: 300px;
+	height: auto
+}
+.pro-2 .pro.shop, .pro-3 .pro.shop {
+	padding: 24px 26px 22px 0;
+}
+.pro-3 .pro.shop .pro-img {
+	width: 300px;
+	height: 300px;
+}
+.pro-2 .pro.shop .pro-title {
+	width: 369px;
+	height: 81px;
+	background: url(http://statics.kay.com.vn/images/bg-title-shop-2.png?v=1.1) no-repeat;
+	top: -22px;
+	left: 51px;
+	padding-top: 6px;
+}
+.pro-3 .pro.shop .pro-title {
+	width: 285px;
+	height: 85px;
+	background: url(http://statics.kay.com.vn/images/bg-title-shop-3.png?v=1.1) no-repeat;
+	top: -26px;
+	left: 10px;
+	padding-top: 5px;
+}
+.pro.shop .pro-tit, .pro.shop .pro-des {
+	color: #333;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	padding: 0 10px;
+	line-height: 20px;
+	height: 20px;
+}
+.one-shop.flexslider {
+	overflow: hidden;
+	float: left;
+	width: 300px;
+	height: auto;
+	border: 3px solid #fff;
+	background-color: #f2f2f0;
+	margin-top: 22px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+	-moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+.one-shop-slide {
+	float: right;
+	width: 300px;
+	background-color: #f2f2f0;
+}
+.one-shop-link {
+	padding: 20px 20px 12px 20px;
+	text-align: center;
+	height: 473px;
+	display: block;
+	overflow: hidden;
+}
+.one-shop-link h3, .one-shop-link p {
+	padding: 0 20px;
+	text-align: center
+}
+.one-shop-link h3 {
+	color: #333;
+	font-size: 150%;
+	line-height: 44px;
+	border-bottom: 1px solid #c0c0c0;
+	display: inline-block;
+*display:inline;
+	zoom: 1;
+	font-family: robotoBold, arial!important;
+	height: 44px;
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+.one-shop-link p {
+	color: #333;
+	font-size: 130%;
+	line-height: 18px;
+}
+.one-shop-link .summary {
+	height: 85px;
+	overflow: hidden;
+}
+.one-shop-link .line {
+	display: block;
+	width: 80px;
+	height: 0;
+	font-size: 0;
+	border-top: 1px solid #c0c0c0;
+	margin: auto;
+}
+.one-shop-buy {
+	background-color: #fff;
+	height: 170px;
+	overflow: hidden;
+	width: 100%
+}
+.one-shop-buy .button {
+	width: 110px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 167%;
+	font-weight: 700;
+	display: block;
+	margin: 48px auto 0 auto;
+	background-image: url(http://statics.kay.com.vn/images/button.png?v=1.1);
+	background-repeat: no-repeat;
+	background-position: -140px -160px;
+	position: relative;
+}
+.one-shop-buy .button:hover {
+	background-position: -140px -214px;
+	top: -3px;
+}
+.one-shop-buy .button:active {
+	background-position: -140px -274px;
+}
+.sec-banner.shop .text-shop {
+	height: 418px;
+	width: 399px;
+	padding: 26px 60px 0 60px;
+	margin-top: -406px;
+	background: url(http://statics.kay.com.vn/images/bg-banner-shop.png?v=1.1) no-repeat;
+}
+.sec-banner.shop .text-shop p, .sec-banner.shop .text-shop .h2 {
+	font-size: 130%;
+	line-height: 20px;
+	color: #333;
+	margin-top: 12px;
+	text-align: center;
+}
+.sec-banner.shop .text-shop .summary {
+	height: 65px;
+	overflow: hidden;
+	margin-bottom: 32px;
+}
+.sec-banner.shop .text-shop .h2 {
+	font-size: 200%;
+	font-weight: 700;
+	line-height: 30px;
+	height: 30px;
+	text-transform: uppercase;
+	font-family: robotoBold, arial;
+	text-overflow: ellipsis;
+	width: 300px;
+	margin: auto;
+}
+.sec-banner.shop .button {
+	background-position: -200px 3px;
+	display: inline-block;
+*display:inline;
+	zoom: 1;
+	margin-top: 0;
+	margin-bottom: 6px;
+}
+.sec-banner.shop .button:hover {
+	background-position: -200px -50px;
+	line-height: 40px
+}
+.sec-banner.shop .button:active {
+	background-position: -200px -107px;
+	height: 44px;
+	line-height: 44px;
+}
+.one-shop .flex-control-nav {
+	width: 100%;
+	left: 0;
+}
+.one-shop .flex-control-paging li a:hover, .one-shop .flex-control-paging li a.flex-active {
+	background: #f68e51;
+}
+.pro-2 .pro.travel, .pro-2 .pro.hotel {
+	padding-right: 37px;
+}
+.pro-2 .pro.hotel {
+	background: url(http://statics.kay.com.vn/images/bg-hotel-2.png?v=1.1) no-repeat;
+	padding: 5px 27px 28px 3px;
+}
+.pro.travel .pro-img, .pro.hotel .pro-img {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.pro.travel .pro-price, .pro.hotel .pro-price {
+	background-color: #00ccff;
+	top: 0;
+}
+.pro.travel .pro-icon, .pro.hotel .pro-icon {
+	background: url(../img/bg-slide.jpg) 0 -630px no-repeat;
+	right: 20px;
+}
+.pro-2 .pro.travel .pro-icon, .pro-2 .pro.hotel .pro-icon {
+	top: 50%;
+}
+.pro-2 .pro.travel .pro-img, .pro-2 .pro.hotel .pro-img {
+	width: 464px;
+	height: auto;
+}
+.pro-2 .pro.hotel .pro-img {
+	border-color: transparent;
+	width: 464px;
+	background-color: transparent;
+	box-shadow: 0 50px 10px -45px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 50px 10px -45px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 50px 10px -45px rgba(0,0,0,0.5);
+}
+.pro.travel .pro-title, .pro.hotel .pro-title {
+	position: relative;
+	background: none;
+	display: block;
+}
+.pro.travel.big .pro-title {
+	height: 131px;
+	background: url(http://statics.kay.com.vn/images/bg-big-travel.png?v=1.1) no-repeat;
+	width: 638px;
+	margin-top: -53px;
+	padding-top: 40px;
+}
+.pro.hotel.big .pro-title {
+	height: 131px;
+	width: 642px;
+	margin-top: -45px;
+	padding-top: 40px;
+}
+.pro.travel.big .pro-title a, .pro.hotel.big .pro-title a {
+	display: block;
+	overflow: hidden;
+}
+.pro.travel.small .pro-title, .pro-3 .pro.travel .pro-title {
+	height: 58px;
+	width: 303px;
+	background: url(http://statics.kay.com.vn/images/bg-small-travel.png?v=1.1) no-repeat;
+	margin-top: -11px;
+	padding-top: 12px;
+}
+.pro.travel.small .pro-title a, .pro-3 .pro.travel .pro-title a, .pro.hotel.small .pro-title a, .pro-3 .pro.hotel .pro-title a {
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+.pro.hotel.small .pro-title, .pro-3 .pro.hotel .pro-title {
+	height: 58px;
+	width: 306px;
+	background: url(http://statics.kay.com.vn/images/bg-small-travel.png?v=1.1) no-repeat;
+	margin-top: -11px;
+	padding-top: 12px;
+}
+.pro.hotel.small .pro-title {
+	background: none;
+	margin-top: -18px;
+}
+.pro-2 .pro.travel .pro-title {
+	height: 132px;
+	width: 470px;
+	background: url(http://statics.kay.com.vn/images/bg-pro2-travel.png?v=1.1) no-repeat;
+	margin-top: -26px;
+	padding-top: 24px;
+}
+.pro-2 .pro.hotel .pro-title {
+	height: 132px;
+	width: 474px;
+	background: none;
+	margin-top: -26px;
+	padding-top: 24px;
+}
+.pro-2 .pro.hotel .pro-title a {
+	display: block;
+	overflow: hidden;
+}
+.pro.travel .pro-title .pro-tit, .pro.hotel .pro-title .pro-tit {
+	color: #333;
+	font-size: 225%;
+	clear: both;
+	line-height: 38px;
+	padding-left: 29px;
+	margin-top: 29px;
+	height: 38px;
+	overflow: hidden;
+}
+.pro.travel .pro-title .pro-des, .pro.hotel .pro-title .pro-des {
+	color: #666;
+	font-style: italic;
+	font-size: 135%;
+	line-height: 24px;
+	padding-left: 29px;
+	display: block;
+	font-family: robotoItalic, arial;
+	height: 52px;
+}
+.pro.hotel.big .pro-title .pro-des {
+	height: 52px;
+}
+.list-pros-title.trave span {
+	color: #00ccff;
+}
+.pro-3 .pro.travel, .pro-3 .pro.hotel {
+	padding-right: 30px;
+}
+.pro-3 .pro.travel .pro-img, .pro-3 .pro.hotel .pro-img {
+	width: 300px;
+	height: auto;
+}
+.pro-3 .pro.travel .pro-title, .pro-3 .pro.hotel .pro-title {
+	height: 57px;
+}
+.flexslider .slides .pro.hotel .pro-title {
+	position: static;
+}
+.pro-3 .pro.travel .pro-icon, .pro.travel.small .pro-icon, .pro-3 .pro.hotel .pro-icon, .pro.hotel.small .pro-icon {/*top:28px;*/
+}
+.pro-3 .pro.travel .pro-title .pro-tit, .pro.travel.small .pro-title .pro-tit, .pro-3 .pro.hotel .pro-title .pro-tit, .pro.hotel.small .pro-title .pro-tit {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	font-size: 167%;
+	line-height: 25px;
+	padding-left: 20px;
+	margin-top: 6px;
+	height: 25px;
+	overflow: hidden;
+}
+.pro.hotel.small .pro-title .pro-tit {
+	text-align: left;
+	margin-top: 9px;
+	padding-right: 40px;
+}
+.pro.hotel.small .pro-title .pro-tit a {
+	color: #333;
+}
+.pro.hotel.small .pro-icon {
+	right: 10px;
+}
+.pro-3 .pro.travel .pro-title .pro-des, .pro.travel.small .pro-title .pro-des, .pro-3 .pro.hotel .pro-title .pro-des, .pro.hotel.small .pro-title .pro-des {
+	font-size: 125%;
+	line-height: 18px;
+	padding-left: 20px;
+	height: 18px;
+	overflow: hidden;
+	font-family: robotoItalic, arial;
+}
+.pro.hotel.small .pro-title .pro-des {
+	text-align: left;
+	padding-right: 40px;
+}
+.pro-3 .pro.travel .pro-price, .pro.travel.small .pro-price, .pro-3 .pro.hotel .pro-price, .pro.hotel.small .pro-price {
+	bottom: 57px;
+}
+.pro.travel.big, .pro.hotel.big {
+	padding-right: 32px;
+}
+.pro.hotel.big {
+	background: url(http://statics.kay.com.vn/images/bg-hotel-big.png?v=1.1) no-repeat;
+	padding: 4px 25px 0 4px;
+}
+.pro.travel.big .pro-img {
+	width: 632px;
+}
+.pro.hotel.big .pro-img {
+	width: 630px;
+	border-color: transparent;
+	background-color: transparent;
+	box-shadow: 0 50px 10px -45px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 50px 10px -45px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 50px 10px -45px rgba(0,0,0,0.5);
+}
+.pro.hotel.big .pro-img img {
+	width: 630px;
+}
+.pro.travel.small, .pro.hotel.small {
+	padding-bottom: 20px;
+	line-height: 0;
+}
+.pro.hotel.small {
+	background: url(http://statics.kay.com.vn/images/bg-hotel-small.png?v=1.1) no-repeat;
+	padding: 4px 3px 33px;
+	width: 302px;
+}
+.pro.travel.small .pro-img {
+	width: 297px;
+}
+.pro.hotel.small .pro-img {
+	width: 297px;
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: 0 50px 10px -45px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 50px 10px -45px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 50px 10px -45px rgba(0,0,0,0.5);
+}
+.list-cities {
+	padding-right: 49px;
+}
+.list-cities {
+	float: left;
+	margin-top: 7px;
+}
+.list-cities a, .list-cities span {
+	float: left;
+}
+.list-cities span {
+	border-left: 1px solid #999;
+	height: 16px;
+	width: 0;
+	font-size: 0;
+	margin-top: 5px;
+}
+.list-cities a {
+	line-height: 26px;
+	color: #999;
+	font-size: 125%;
+	padding: 0 19px;
+}
+.list-cities a:hover, .list-cities .active {
+	color: #333;
+}
+.gr-pro {
+	float: left;
+	width: 336px;
+	line-height: 0;
+	overflow: hidden
+}
+.gr-pro ul {
+	width: auto
+}
+.bandage-left, .bandage-right, .stamp {
+	position: absolute;
+	background-image: url(http://statics.kay.com.vn/images/ico-travel.png?v=1.1);
+	background-repeat: no-repeat;
+}
+.bandage-left {
+	width: 81px;
+	height: 68px;
+	background-position: 0 0;
+	left: 7px;
+	top: 11px;
+}
+.bandage-right {
+	width: 66px;
+	height: 51px;
+	background-position: 0 -130px;
+	right: 12px;
+	top: -3px;
+}
+.pro-2 .bandage-left {
+	width: 64px;
+	height: 56px;
+	background-position: 0 -70px;
+	top: -3px;
+	left: 7px;
+}
+.stamp {
+	width: 132px;
+	height: 100px;
+	background-position: 0 -190px;
+	top: 21px;
+	right: 0;
+}
+.sec-banner.index .text-shop .h2 {
+	color: #ff6600;
+	font-weight: 700;
+	font-size: 610%;
+	line-height: 102px;
+	height: 102px;
+	font-family: robotoBold, arial;
+}
+.banner-tail {
+	display: none;
+	width: 245px;
+	height: 98px;
+	background: url(http://statics.kay.com.vn/images/banner-index-tail.png?v=1.1) no-repeat;
+	position: absolute;
+	left: 240px;
+	bottom: -4px;
+}
+.sec-banner.index .button {
+	height: 42px;
+	width: 110px;
+	display: block;
+	margin: 3px auto 0 auto;
+	background-position: 0 -160px;
+	line-height: 42px;
+}
+.sec-banner.index .button:hover {
+	background-position: 0 -213px;
+	margin-top: 0;
+}
+.sec-banner.index .button:active {
+	background-position: 0 -270px;
+}
+.sec-banner.index .text-shop {
+	width: 978px;
+	margin: auto;
+	position: relative;
+	padding: 0;
+	height: 407px;
+	text-align: center;
+}
+.sec-banner.index .text-shop div {
+	width: 371px;
+	height: 265px;
+	background: url(http://statics.kay.com.vn/images/bg-banner-index.png?v=1.2) no-repeat;
+	padding: 76px 0 30px 0;
+	position: absolute;
+	left: 0;
+	top: -384px;
+}
+.sec-banner.index .text-shop p {
+	top: auto;
+	overflow: hidden;
+	position: static;
+	display: block;
+*display:inline;
+	zoom: 1;
+	text-align: center;
+}
+.sec-banner.index .text-shop .h3 {
+	color: #666;
+	font-weight: 700;
+	font-size: 180%;
+	text-transform: uppercase;
+	line-height: 30px;
+	height: 116px;
+	width: 288px;
+	margin: auto;
+	padding: 6px 0;
+	font-family: robotoBold, arial;
+	margin-top: -11px;/*border:1px dashed #ff6600;border-width:1px 0;*/
+}
+.sec-banner.index .text-shop .h3 i {
+	text-transform: none;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 80%;
+}
+.sec-banner.index .text-shop .h2 {
+	color: #ff6600;
+	font-weight: 700;
+	font-size: 254%;
+	line-height: 40px;
+	height: 87px;
+	font-family: robotoBold, arial;
+	position: relative;
+	top: -9px;
+}
+.nghile {
+	position: absolute;
+	right: -130px;
+	top: 0;
+	width: 120px;
+	height: 600px;
+	backgroung: #fff;
+}
+.isShop {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+	width: 115px;
+	height: 84px;
+	background: url(http://statics.kay.com.vn/images/isShop.png?v=1.1) no-repeat;
+	z-index: 0;
+	display: none;
+}
+.pro-3 .pro.index .isShop, .pro-3 .pro.shop .isShop {
+	background: url(http://statics.kay.com.vn/images/isShop-small.png?v=1.1) no-repeat;
+	width: 87px;
+	height: 64px;
+}
+.detail-shop-text {
+	border-bottom: 1px dotted #a5a5a5;
+}
+.detail-shop-logo img {
+	height: 43px;
+	margin: auto;
+}
+.detail-shop-desc {
+	font-size: 122%;
+	line-height: 20px;
+	color: #333;
+	height: 80px;
+	overflow: hidden;
+	padding: 10px 0 20px 0;
+	border-bottom: 1px dotted #A5A5A5
+}
+.detail-shop-best {
+	height: 134px;
+	border: 1px solid #fff;
+	width: 640px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+	-moz-box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+	background: #eee;
+	margin-left: 336px;
+	position: relative;
+	padding-top: 18px;
+}
+.detail-shop-best img {
+	height: 114px;
+	width: 114px;
+	float: left;
+	margin: 0 18px 0 19px;
+}
+.detail-shop-tail {
+	position: absolute;
+	top: -18px;
+	left: -12px;
+	padding-left: 11px;
+	height: 36px;
+	background: url(http://statics.kay.com.vn/images/detail-shop-tail.png?v=1.1) no-repeat;
+}
+.detail-shop-tail span {
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	background-color: #333;
+	font-size: 136%;
+	text-transform: capitalize;
+	color: #fff;
+	box-shadow: 2px 2px 0 #c9c9c9;
+	-moz-box-shadow: 2px 2px 0 #c9c9c9;
+	-webkit-box-shadow: 2px 2px 0 #c9c9c9;
+	padding-right: 11px;
+}
+.detail-shop-best p {
+	padding-right: 22px;
+	font-size: 118%;
+	font-family: robotoItalic, arial;
+	font-style: italic;
+}
+.detail-shop-time {
+	font-size: 118%;
+	font-family: robotoItalic, arial;
+	font-style: italic;
+	text-align: right;
+	color: #666;
+	margin-top: 12px;
+	padding-bottom: 12px;
+}
+.slide-logo {
+	width: 976px;
+	height: 45px;
+	background: #fff;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	padding-top: 9px;
+	box-shadow: 0 3px 10px #ccc inset;
+	-webkit-box-shadow: 0 3px 10px #ccc inset;
+	-moz-box-shadow: 0 3px 10px #ccc inset;
+}
+.list-pros.horizon .pro.hotel.small {
+	padding-right: 30px;
+}
+.list-pros.horizon .pro.travel.small {
+	padding-right: 34px;
+}
+.so-luong-co-han {
+	width: 109px;
+	height: 172px;
+	position: absolute;
+	top: 25px;
+	right: -12px;
+	background: url(http://statics.kay.com.vn/images/so-luong-han-che.png) no-repeat;
+}
+.so-luong-cohan {
+	width: 124px;
+	height: 172px;
+	position: absolute;
+	top: 25px;
+	right: -12px;
+	background: url(http://statics.kay.com.vn/images/so-luong-cohan.png) no-repeat;
+}
+.so-luong-cohan i {
+	color: #ffff00;
+	font-size: 160%;
+	position: absolute;
+	left: 0;
+	bottom: 18px;
+	display: block;
+	width: 70px;
+	text-align: center;
+	font-weight: bold
+}
+.list-pros.pro-3 .so-luong-co-han {
+	top: 19px;
+}
+.detail-shop-button {
+	position: absolute;
+	left: 150px;
+	bottom: 18px;
+	height: 29px;
+	float: left;
+}
+.detail-shop-button .button {
+	display: block;
+	height: 29px;
+	width: 85px;
+	background-image: url(http://statics.kay.com.vn/images/button.png);
+	background-repeat: no-repeat;
+	position: relative;
+	text-align: center;
+	line-height: 27px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 140%;
+	background-position: -220px -330px;
+}
+.detail-shop-button .button:hover {
+	background-position: -220px -380px;
+	top: -3px;
+}
+.detail-shop-button .button:active {
+	background-position: -220px -440px;
+	top: 0;
+}
+.sec-banner.index {
+	background:url(../img/bg-slide.jpg) repeat-x bottom center;
+	background-size: 100% 400px;
+  	
+	
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*scroller_roll.css*/
+.scroller_roll {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.scroller_roll ul {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.scroller_roll ul li {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	float: left;
+	text-align: center;
+	display: inline;
+	overflow: hidden;
+	text-align: center;
+}
+.scroller_roll ul li a {
+	text-decoration: none;
+	float: legt;
+}
+.scroller_roll ul li a:hover {
+	text-decoration: underline;
+}
+.scroller_roll ul li a img {
+	border: none;
+}
+.pro.hotel.primetime .pro-price-left {
+	color: #333;
+}
+.pro.hotel.primetime .pro-price-left .new-price {
+	color: #333;
+}
+.pro.travel.primetime .pro-price-left {
+	color: #333;
+}
+.pro.travel.primetime .pro-price-left .new-price {
+	color: #333;
+}
+.pro.hotel.big.primetime {
+	background: url(http://statics.kay.com.vn/images/bg-hotel-big-primetime.png) no-repeat;
+}
+.pro.hotel.small.primetime {
+	background:url(../img/bg-slide.jpg) repeat-x bottom center;
+}
+.pro-2 .pro.hotel.primetime {
+	background: url(http://statics.kay.com.vn/images/bg-hotel-2-primetime.png) no-repeat;
+}
+.pro.travel.big.primetime .pro-title {
+	background: url(http://statics.kay.com.vn/images/bg-big-travel-primetime.png) no-repeat
+}
+.pro.travel.small.primetime .pro-title, .pro-3 .pro.travel.primetime .pro-title {
+	background: url(http://statics.kay.com.vn/images/bg-small-travel-primetime.png) no-repeat
+}
+.pro-2 .pro.travel.primetime .pro-title {
+	background: url(http://statics.kay.com.vn/images/bg-pro2-travel-primetime.png) no-repeat;
+}
+
+/*Dieu css 27-8-2013*/
+.scroller_roll{
+    padding: 0px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.scroller_roll ul{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+	width:5000px;
+}
+.scroller_roll ul li{
+    padding: 25px;
+    margin: 0px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    display:inline;
+    overflow: hidden;
+}
+.scroller_roll ul li a{
+    text-decoration: none;
+}
+.scroller_roll ul li a:hover{
+    text-decoration: underline;
+}
+.scroller_roll ul li a img{
+    border: none;
+}
+.img-banner
+{
+	width:270px;
+	heigh:330px;
+}

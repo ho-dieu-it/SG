@@ -1,0 +1,288 @@
+/* Clearfix */
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+* html > body .clearfix {
+	display: block;
+	width: 100%;
+}
+* html .clearfix {
+	height: 1%;
+}
+/* CSS Document */
+body
+{
+	font-family:Verdana;
+	font-size:11px;
+	
+	margin:0px;
+	padding:0px;
+	
+	background:url(images/bg2.jpg) center repeat-y #f2ead5;
+	
+	color:#333333;
+}
+a
+{
+	color:#333333;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#000000;
+	text-decoration:underline;
+}
+form, center, object
+{
+	margin:0;
+	padding:0;
+}
+.tgp_container
+{
+	width:960px;
+	text-align:left;
+	background:#f8f9f9;
+}
+.tgp_banner
+{
+	height:176x;
+	width:160px;
+	margin-top:1px;
+	position:relative;
+}
+.tgp_banner .languages
+{
+	position:absolute;
+	right:-757px;
+	left:864px;
+	top:144px;
+}
+.tgp_menu
+{
+	text-align:left;
+	height:32px;
+	background:url(images/menubg.jpg);
+	padding-left:10px;
+	margin-bottom:3px;
+	position:relative;
+}
+.tgp_menu ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.tgp_menu ul li
+{
+	float:left;
+	line-height:27px;
+	padding-left:10px;
+	padding-right:10px;
+	border-right:solid 1px #fff;
+	font-weight:bold;
+}
+.tgp_menu ul li a
+{
+	color:#fff;
+}
+.tgp_menu ul li.sub
+{
+	position:relative;
+}
+.tgp_menu ul li.sub ul
+{
+	display:none;
+	width:200px;
+	position:absolute;
+	top:27px;
+	left:0px;
+}
+.tgp_menu ul li.sub ul li
+{
+	float:none;
+	line-height:25px;
+	background:#ebeee7;
+	border-bottom:solid 1px #999999;
+	border-left:solid 1px #999999;
+	border-right:solid 1px #999999;
+	font-weight:normal;
+	color:#000;
+	filter:alpha(opacity=85);-moz-opacity:.85;opacity:.85;
+}
+.tgp_menu ul li.sub ul li a
+{
+	color:#000;
+}
+.tgp_menu .languages
+{
+	width:60px;
+	position:absolute;
+	right:43px;
+	left:860px;
+	top:4px;
+}
+.tgp_body
+{
+	width:960px;
+}
+.tgp_body .body_1
+{
+	width:200px;
+	float:left;
+}
+.tgp_body .body_2
+{
+	width:625px;
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+.tgp_body .body_3
+{
+	width:115px;
+	float:left;
+}
+
+.left_menu
+{
+	margin-bottom:5px;
+}
+.left_menu h1
+{
+	margin:0;
+	padding:0;
+	line-height:30px;
+	background:url(images/menu_hd.gif) repeat-x;
+	font-size:11px;
+	color:#fff;
+	text-align:center;
+}
+.left_menu ul
+{
+	background:#ebeee7; /*#8cc8e0;*/
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.left_menu ul li
+{
+	height:24px;
+	line-height:24px;
+	display:inline-table;
+	width:100%;
+	font-weight:bold;
+	border-bottom:solid 1px #999999;
+}
+
+.tgp_box
+{
+	margin-bottom:5px;
+}
+.tgp_box h1
+{
+	margin:0;
+	padding:0;
+	font-size:11px;
+	color:#fff;
+	background:url(images/box_hl.jpg) left no-repeat;
+	line-height:23px;
+	padding-left:30px;
+}
+.tgp_box h1 span
+{
+	display:inline-block;
+	line-height:23px;
+	width:100%;
+	background:url(images/box_hr.jpg) right no-repeat;
+}
+.tgp_box .content
+{
+	border-left:solid 1px #CCCCCC;
+	border-bottom:solid 1px #CCCCCC;
+	border-right:solid 1px #CCCCCC;
+	padding:5px;
+	background:#fff;
+	line-height:15px;
+}
+
+.tgp_copyright
+{
+	height:66px;
+	/*background:url(images/copyright.jpg) no-repeat;*/
+	color:#CCCCCC;
+	position:relative;
+	margin-bottom:1px;
+}
+.tgp_copyright a
+{
+	color:#FFFFFF;
+}
+.tgp_copyright .div_1
+{
+	position:absolute;
+	left:25px;
+	top:15px;
+	font-size:10px;
+}
+.tgp_copyright .div_2
+{
+	position:absolute;
+	right:25px;
+	top:18px;
+	text-align:center;
+}
+.sp_box
+{
+	width:280px;
+	float:left;
+	margin:5px;
+	margin-left:5px;
+	margin-right:3px;
+	border:solid 1px #CCCCCC;
+	height:100px;
+	padding:5px;
+	text-align:justify;
+	background:#ebeee7;
+}
+/* input - button */
+.input_line
+{
+	border:none;
+	border-bottom:dashed 1px #999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FF0000;
+	padding:3px;
+}
+.inputbox
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#006633;
+	border:none;
+	border-bottom:dashed 1px #999999;
+	padding:4px;
+}
+input.button, select.button
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	border		: 1px solid #DDDDDD;
+	border-bottom-color	: #CCCCCC;
+	color		: #666666;
+	padding		: 2px 8px;
+}
+.button2 {
+	border		:	1px solid #DDDDDD;
+	border-bottom-color	:	#CCCCCC;
+	color		:	#666666;
+	padding		:	2px 8px;
+}
+.button2:hover, .button2:focus {
+	background	: #FFFFEA;
+	border		: 1px solid #999999;
+}
